@@ -1,0 +1,92 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: white;
+    color: black;
+}
+
+/* Header */
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+
+header .nav-links li {
+    margin-left: 1.5rem;
+}
+
+header .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Hero Section */
+#hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+#hero p {
+    margin: 1rem 0 2rem;
+}
+
+/* Section Styling */
+section {
+    padding: 3rem 1rem;
+    text-align: left;
+}
+
+section .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0077b6;
+}
+
+/* Footer */
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}

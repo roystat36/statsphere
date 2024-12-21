@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stat Sphere - Statistical Consulting</title>
+    <link rel="stylesheet" href="TSA.css"> <!-- Link to external stylesheet -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo"><a href="index" style="text-decoration: none; color: inherit;">Stat Sphere</a></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index">About</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="people">People</a></li>
+                    <li><a href="courses">Courses</a></li>
+                    <li><a href="contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+            <div class="logo-container">
+                <h1>Time Series Analysis with R</h1>
+            </div>
+
+            <section class="syllabus">
+                <h2>Course Objectives</h2>
+                <ul>
+                    <li>Understand the fundamentals of time series data and its components.</li>
+                    <li>Develop the ability to apply time series models to real-world data using R.</li>
+                    <li>Learn various time series analysis techniques like ARIMA, GARCH, and others.</li>
+                    <li>Gain experience in forecasting and evaluating time series models.</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Course Structure</h2>
+            
+                <div class="syllabus">
+                    <h3>Chapter 1: Introduction to Time Series Analysis</h3>
+                    <ul>
+                        <li>Definition of time series data.</li>
+                        <li>Components of time series: Trend, seasonality, cyclicity, and irregular components.</li>
+                        <li>Time series plots and visualization techniques.</li>
+                    </ul>
+                    <p class="activity"><strong>Activity:</strong> Plot and identify components of time series data in R using `ggplot2`.</p>
+                </div>
+            
+                <br>
+            
+                <div class="syllabus">
+                    <h3>Chapter 2: Time Series Decomposition</h3>
+                    <ul>
+                        <li>Trend decomposition using moving averages.</li>
+                        <li>Seasonal decomposition using classical decomposition and STL (Seasonal-Trend decomposition using Loess).</li>
+                    </ul>
+                    <p class="activity"><strong>Activity:</strong> Decompose a time series dataset into its components using R's `stl()` function.</p>
+                </div>
+            
+                <br>
+            
+                <div class="syllabus">
+                    <h3>Chapter 3: Stationarity and Transformation</h3>
+                    <ul>
+                        <li>Understanding stationarity in time series data.</li>
+                        <li>Tests for stationarity: Augmented Dickey-Fuller (ADF) test and KPSS test.</li>
+                        <li>Transformation techniques: Log transformation, differencing, and seasonal adjustments.</li>
+                    </ul>
+                    <p class="activity"><strong>Activity:</strong> Perform stationarity tests using the `ur.df()` and `kpss.test()` functions in R.</p>
+                </div>
+            
+                <br>
+            
+                <div class="syllabus">
+                    <h3>Chapter 4: Autoregressive and Moving Average Models (ARMA)</h3>
+                    <ul>
+                        <li>Introduction to AR(p) and MA(q) models.</li>
+                        <li>Stationarity and invertibility conditions for ARMA models.</li>
+                        <li>Fitting ARMA models and diagnostic checking using ACF and PACF plots.</li>
+                    </ul>
+                    <p class="activity"><strong>Activity:</strong> Fit ARMA models using R’s `arima()` function and analyze residuals.</p>
+                </div>
+            
+                <br>
+            
+                <div class="syllabus">
+                    <h3>Chapter 5: ARIMA (Autoregressive Integrated Moving Average) Models</h3>
+                    <ul>
+                        <li>Introduction to ARIMA models: p, d, q parameters.</li>
+                        <li>Building and fitting ARIMA models.</li>
+                        <li>Model diagnostics: Residual analysis, AIC, and BIC criteria.</li>
+                    </ul>
+                    <p class="activity"><strong>Activity:</strong> Build an ARIMA model for forecasting using the `auto.arima()` function from the `forecast` package in R.</p>
+                </div>
+            
+                <br>
+            
+                <div class="syllabus">
+                    <h3>Chapter 6: Seasonal ARIMA (SARIMA)</h3>
+                    <ul>
+                        <li>Seasonal differencing and SARIMA models.</li>
+                        <li>Modeling seasonal time series using SARIMA.</li>
+                    </ul>
+                    <p class="activity"><strong>Activity:</strong> Fit a SARIMA model using R's `auto.arima()` function, accounting for seasonality.</p>
+                </div>
+            
+                <br>
+            
+                <div class="syllabus">
+                    <h3>Chapter 7: GARCH Models (Generalized Autoregressive Conditional Heteroscedasticity)</h3>
+                    <ul>
+                        <li>Introduction to heteroscedasticity and volatility modeling.</li>
+                        <li>Fitting GARCH models to time series data for volatility estimation.</li>
+                    </ul>
+                    <p class="activity"><strong>Activity:</strong> Estimate a GARCH model using the `rugarch` package in R.</p>
+                </div>
+            
+                <br>
+            
+                <div class="syllabus">
+                    <h3>Chapter 8: Time Series Forecasting and Evaluation</h3>
+                    <ul>
+                        <li>Understanding forecasting methods and accuracy metrics.</li>
+                        <li>Cross-validation for time series forecasting.</li>
+                        <li>Evaluation metrics: RMSE, MAE, MAPE.</li>
+                    </ul>
+                    <p class="activity"><strong>Activity:</strong> Evaluate the performance of a time series forecasting model using RMSE and MAE in R.</p>
+                </div>
+            
+                <br>
+            
+                <div class="syllabus">
+                    <h3>Chapter 9: Practical Applications in R</h3>
+                    <ul>
+                        <li>Applying time series analysis to real-world datasets in R.</li>
+                        <li>Hands-on exercises on financial, economic, and environmental data.</li>
+                    </ul>
+                    <p class="activity"><strong>Activity:</strong> Perform a complete time series analysis on a provided dataset, including data cleaning, decomposition, modeling, and forecasting.</p>
+                </div>
+            
+                <br>
+            
+                <div class="syllabus">
+                    <h3>Chapter 10: Time Series Analysis in R (Advanced Techniques)</h3>
+                    <ul>
+                        <li>Introduction to advanced forecasting methods: Prophet, ETS (Exponential Smoothing), and machine learning models for time series.</li>
+                        <li>Modeling and forecasting using R's `prophet`, `forecast`, and other machine learning libraries.</li>
+                    </ul>
+                    <p class="activity"><strong>Activity:</strong> Build a forecasting model using the `prophet` package in R for a given time series dataset.</p>
+                </div>
+            
+                <br>
+            
+            </section>
+            
+            <section class="syllabus">
+                <h2>Interactive Features</h2>
+                <ul>
+                    <li>Hands-on Exercises: Analyze datasets from different domains (e.g., stock market, climate change, etc.) using R.</li>
+                    <li>Quizzes: End-of-module quizzes to test knowledge and application of time series concepts.</li>
+                    <li>Real-World Examples: Discuss real-world case studies of time series analysis in different industries.</li>
+                    <li>Capstone Project: Design a full time series analysis project, including data collection, model fitting, and forecasting in R.</li>
+                </ul>
+            </section>            
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 STAT SPHERE. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
